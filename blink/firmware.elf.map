@@ -1,27 +1,27 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
-                              /tmp/ccd7SGDI.o (memcpy)
+                              /tmp/cc4fuJj3.o (memcpy)
 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                              /tmp/ccd7SGDI.o (memset)
+                              /tmp/cc4fuJj3.o (memset)
 
 Discarded input sections
 
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .group         0x0000000000000000        0xc /tmp/ccd7SGDI.o
- .text          0x0000000000000000        0x0 /tmp/ccd7SGDI.o
- .data          0x0000000000000000        0x0 /tmp/ccd7SGDI.o
- .bss           0x0000000000000000        0x0 /tmp/ccd7SGDI.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .group         0x0000000000000000        0xc /tmp/cc4fuJj3.o
+ .text          0x0000000000000000        0x0 /tmp/cc4fuJj3.o
+ .data          0x0000000000000000        0x0 /tmp/cc4fuJj3.o
+ .bss           0x0000000000000000        0x0 /tmp/cc4fuJj3.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
@@ -36,60 +36,60 @@ sram             0x0000000020000000 0x0000000000020000 xrw
 
 Linker script and memory map
 
-LOAD /tmp/ccd7SGDI.o
+LOAD /tmp/cc4fuJj3.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
                 0x0000000020020000                _estack = (ORIGIN (sram) + LENGTH (sram))
 
 .vectors        0x0000000008000000      0x1dc
  *(.vectors)
- .vectors       0x0000000008000000      0x1dc /tmp/ccd7SGDI.o
+ .vectors       0x0000000008000000      0x1dc /tmp/cc4fuJj3.o
                 0x0000000008000000                tab
 
-.text           0x00000000080001dc      0x270
+.text           0x00000000080001dc      0x278
  *(.text*)
  .text.startup.main
-                0x00000000080001dc       0x4c /tmp/ccd7SGDI.o
+                0x00000000080001dc       0x54 /tmp/cc4fuJj3.o
                 0x00000000080001dc                main
- .text._reset   0x0000000008000228       0x4c /tmp/ccd7SGDI.o
-                0x0000000008000228                _reset
- .text          0x0000000008000274      0x134 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
-                0x0000000008000274                memcpy
- .text          0x00000000080003a8       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
-                0x00000000080003a8                memset
+ .text._reset   0x0000000008000230       0x4c /tmp/cc4fuJj3.o
+                0x0000000008000230                _reset
+ .text          0x000000000800027c      0x134 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+                0x000000000800027c                memcpy
+ .text          0x00000000080003b0       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x00000000080003b0                memset
 
-.glue_7         0x000000000800044c        0x0
- .glue_7        0x000000000800044c        0x0 linker stubs
+.glue_7         0x0000000008000454        0x0
+ .glue_7        0x0000000008000454        0x0 linker stubs
 
-.glue_7t        0x000000000800044c        0x0
- .glue_7t       0x000000000800044c        0x0 linker stubs
+.glue_7t        0x0000000008000454        0x0
+ .glue_7t       0x0000000008000454        0x0 linker stubs
 
-.vfp11_veneer   0x000000000800044c        0x0
- .vfp11_veneer  0x000000000800044c        0x0 linker stubs
+.vfp11_veneer   0x0000000008000454        0x0
+ .vfp11_veneer  0x0000000008000454        0x0 linker stubs
 
-.v4_bx          0x000000000800044c        0x0
- .v4_bx         0x000000000800044c        0x0 linker stubs
+.v4_bx          0x0000000008000454        0x0
+ .v4_bx         0x0000000008000454        0x0 linker stubs
 
-.iplt           0x000000000800044c        0x0
- .iplt          0x000000000800044c        0x0 /tmp/ccd7SGDI.o
+.iplt           0x0000000008000454        0x0
+ .iplt          0x0000000008000454        0x0 /tmp/cc4fuJj3.o
 
-.rel.dyn        0x000000000800044c        0x0
- .rel.iplt      0x000000000800044c        0x0 /tmp/ccd7SGDI.o
+.rel.dyn        0x0000000008000454        0x0
+ .rel.iplt      0x0000000008000454        0x0 /tmp/cc4fuJj3.o
 
 .rodata
  *(.rodata*)
 
-.data           0x0000000020000000        0x0 load address 0x000000000800044c
+.data           0x0000000020000000        0x0 load address 0x0000000008000454
                 0x0000000020000000                _sdata = .
  *(.first_data)
  *(.data SORT_BY_NAME(.data.*))
                 0x0000000020000000                _edata = .
-                0x000000000800044c                _sidata = LOADADDR (.data)
+                0x0000000008000454                _sidata = LOADADDR (.data)
 
-.igot.plt       0x0000000020000000        0x0 load address 0x000000000800044c
- .igot.plt      0x0000000020000000        0x0 /tmp/ccd7SGDI.o
+.igot.plt       0x0000000020000000        0x0 load address 0x0000000008000454
+ .igot.plt      0x0000000020000000        0x0 /tmp/cc4fuJj3.o
 
-.bss            0x0000000020000000        0x0 load address 0x000000000800044c
+.bss            0x0000000020000000        0x0 load address 0x0000000008000454
                 0x0000000020000000                _sbss = .
  *(.bss SORT_BY_NAME(.bss.*) COMMON)
                 0x0000000020000000                _ebss = .
@@ -98,72 +98,72 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
 OUTPUT(firmware.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x0000000000000000      0x726
- .debug_info    0x0000000000000000      0x5c9 /tmp/ccd7SGDI.o
- .debug_info    0x00000000000005c9       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_info    0x00000000000005ef      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+.debug_info     0x0000000000000000      0x7ae
+ .debug_info    0x0000000000000000      0x651 /tmp/cc4fuJj3.o
+ .debug_info    0x0000000000000651       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000000677      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
-.debug_abbrev   0x0000000000000000      0x303
- .debug_abbrev  0x0000000000000000      0x23b /tmp/ccd7SGDI.o
- .debug_abbrev  0x000000000000023b       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_abbrev  0x000000000000024f       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+.debug_abbrev   0x0000000000000000      0x335
+ .debug_abbrev  0x0000000000000000      0x26d /tmp/cc4fuJj3.o
+ .debug_abbrev  0x000000000000026d       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000281       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
-.debug_loc      0x0000000000000000      0x32e
- .debug_loc     0x0000000000000000      0x102 /tmp/ccd7SGDI.o
- .debug_loc     0x0000000000000102      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+.debug_loc      0x0000000000000000      0x2f4
+ .debug_loc     0x0000000000000000       0xc8 /tmp/cc4fuJj3.o
+ .debug_loc     0x00000000000000c8      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
 .debug_aranges  0x0000000000000000       0x68
  .debug_aranges
-                0x0000000000000000       0x28 /tmp/ccd7SGDI.o
+                0x0000000000000000       0x28 /tmp/cc4fuJj3.o
  .debug_aranges
                 0x0000000000000028       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
  .debug_aranges
                 0x0000000000000048       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
-.debug_ranges   0x0000000000000000       0x48
- .debug_ranges  0x0000000000000000       0x48 /tmp/ccd7SGDI.o
+.debug_ranges   0x0000000000000000       0xe0
+ .debug_ranges  0x0000000000000000       0xe0 /tmp/cc4fuJj3.o
 
-.debug_macro    0x0000000000000000     0x151e
- .debug_macro   0x0000000000000000       0xba /tmp/ccd7SGDI.o
- .debug_macro   0x00000000000000ba      0xa6c /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000b26       0x22 /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000b48       0x46 /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000b8e       0x18 /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000ba6       0x94 /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000c3a       0x3c /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000c76      0x103 /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000d79       0x3a /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000000db3      0x34e /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000001101       0x82 /tmp/ccd7SGDI.o
- .debug_macro   0x0000000000001183      0x379 /tmp/ccd7SGDI.o
- .debug_macro   0x00000000000014fc       0x22 /tmp/ccd7SGDI.o
+.debug_macro    0x0000000000000000     0x1518
+ .debug_macro   0x0000000000000000       0xb4 /tmp/cc4fuJj3.o
+ .debug_macro   0x00000000000000b4      0xa6c /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000b20       0x22 /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000b42       0x46 /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000b88       0x18 /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000ba0       0x94 /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000c34       0x3c /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000c70      0x103 /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000d73       0x3a /tmp/cc4fuJj3.o
+ .debug_macro   0x0000000000000dad      0x34e /tmp/cc4fuJj3.o
+ .debug_macro   0x00000000000010fb       0x82 /tmp/cc4fuJj3.o
+ .debug_macro   0x000000000000117d      0x379 /tmp/cc4fuJj3.o
+ .debug_macro   0x00000000000014f6       0x22 /tmp/cc4fuJj3.o
 
-.debug_line     0x0000000000000000      0x4bb
- .debug_line    0x0000000000000000      0x23e /tmp/ccd7SGDI.o
- .debug_line    0x000000000000023e       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_line    0x00000000000002fc      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+.debug_line     0x0000000000000000      0x4dc
+ .debug_line    0x0000000000000000      0x25f /tmp/cc4fuJj3.o
+ .debug_line    0x000000000000025f       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_line    0x000000000000031d      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
-.debug_str      0x0000000000000000     0x4f12
- .debug_str     0x0000000000000000     0x4d38 /tmp/ccd7SGDI.o
-                                       0x4ef5 (size before relaxing)
- .debug_str     0x0000000000004d38       0xb6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
- .debug_str     0x0000000000004dee      0x124 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+.debug_str      0x0000000000000000     0x4ef8
+ .debug_str     0x0000000000000000     0x4d1e /tmp/cc4fuJj3.o
+                                       0x4ee1 (size before relaxing)
+ .debug_str     0x0000000000004d1e       0xb6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
+ .debug_str     0x0000000000004dd4      0x124 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
                                         0x1c0 (size before relaxing)
 
 .comment        0x0000000000000000       0x33
- .comment       0x0000000000000000       0x33 /tmp/ccd7SGDI.o
+ .comment       0x0000000000000000       0x33 /tmp/cc4fuJj3.o
                                          0x34 (size before relaxing)
  .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
 .ARM.attributes
                 0x0000000000000000       0x32
  .ARM.attributes
-                0x0000000000000000       0x34 /tmp/ccd7SGDI.o
+                0x0000000000000000       0x34 /tmp/cc4fuJj3.o
  .ARM.attributes
                 0x0000000000000034       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memcpy.o)
  .ARM.attributes
                 0x0000000000000050       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
 
 .debug_frame    0x0000000000000000       0x64
- .debug_frame   0x0000000000000000       0x38 /tmp/ccd7SGDI.o
+ .debug_frame   0x0000000000000000       0x38 /tmp/cc4fuJj3.o
  .debug_frame   0x0000000000000038       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
